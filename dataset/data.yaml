@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['blue-bottle', 'phone', 'red mug']
+
+roboflow:
+  workspace: pernillas-workspace
+  project: yolo-test-model-ararm
+  version: 5
+  license: Private
+  url: https://app.roboflow.com/pernillas-workspace/yolo-test-model-ararm/5
